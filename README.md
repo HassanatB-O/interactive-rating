@@ -22,4 +22,4 @@ Users should be able to:
 - Flexbox
 - Javascript
 
-Website - https://hassanatb-o.github.io/interactive-rating-component/
+Website - https://hassanatb-o.github.io/interactive-rating/
