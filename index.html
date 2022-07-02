@@ -16,14 +16,28 @@
         <img src="images/icon-star.svg" alt="star" id="svg">
         <h1 id="header">How did we do?</h1>
         <p id="request">Please let us know how we did with your support request. All feeback is appreciated to help us improve our offering.</p>
-        <div id="rating">
-            <p id="num">1</p>
-            <p id="num">2</p>
-            <p id="num">3</p>
-            <p id="num">4</p>
-            <p id="num">5</p>
-        </div>
+        <form id="rating">
+            <input type="radio" value="1" id="num1" name="num">
+            <label for="num1">1</label>
+            <input type="radio" value="2" id="num2" name="num">
+            <label for="num2">2</label>
+            <input type="radio" value="3" id="num3" name="num">
+            <label for="num3">3</label>
+            <input type="radio" value="4" id="num4" name="num">
+            <label for="num4">4</label>
+            <input type="radio" value="5" id="num5" name="num">
+            <label for="num5">5</label>
+        </form>
         <button id="submit">submit</button>
+    </div>
+    <!-- Thank you state -->
+    <div id="thank-you-state">
+        <img src="images/illustration-thank-you.svg" alt="thank-you" id="thank-you-illustration">
+        <p id="selection">You selected <span id="rate-selection"></span> out of 5</p>
+        <div id="description">
+            <h1 id="thank-you-header">Thank you!</h1>
+            <p id="thank-you-message">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch.</p>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
