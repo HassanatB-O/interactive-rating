@@ -107,7 +107,7 @@ button:hover{
     margin: auto;
 }
 @media screen and (max-width: 800px){
-    #container{
+    #container, #thank-you-state{
         width: 80%;
     }
 }
